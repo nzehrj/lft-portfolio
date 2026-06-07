@@ -10,7 +10,7 @@ const availability = [
 const socials = [
   { href: 'https://github.com/', label: 'GitHub' },
   { href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { href: 'https://twitter.com/', label: 'Twitter / X' },
+  { href: 'https://x.com/fizz_lemonade?s=21', label: 'Twitter / X' },
 ]
 
 export default function ContactInfo() {
@@ -32,6 +32,27 @@ export default function ContactInfo() {
           </div>
         </div>
       </div>
+
+      {/* WHATSAPP */}
+      <a
+        href="https://wa.me/2348052614263?text=Hi%20Lemonade%20Fizz%20Tech%2C%20I%27d%20like%20to%20talk%20about%20a%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-between rounded-2xl border border-line bg-white p-6 transition-colors hover:border-orange-mid sm:p-8"
+      >
+        <div className="flex items-center gap-4">
+          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-green-500 text-white">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2a10 10 0 00-8.6 15l-1.4 5 5.1-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.8-.6-3-1.3-5-4.4-5.1-4.6-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1.1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.1c.1.2.1.4 0 .6l-.4.5c-.2.2-.3.4-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z" />
+            </svg>
+          </span>
+          <div>
+            <div className="text-lg font-bold text-ink">Chat on WhatsApp</div>
+            <div className="text-sm text-muted">Usually replies within minutes</div>
+          </div>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#888" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
+      </a>
 
       {/* AVAILABILITY */}
       <div className="rounded-2xl bg-ink p-6 sm:p-8">

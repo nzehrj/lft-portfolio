@@ -6,9 +6,9 @@ import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 const testimonials = [
   {
     quote: 'Working with Rejoice was a pleasure. They translated our vision into a beautiful and functional website that exceeded our expectations entirely.',
-    name: 'Jacob Thompson',
+    name: 'Eze Kelechi',
     role: 'Business Owner',
-    initials: 'JT',
+    initials: 'EK',
   },
   {
     quote: "Rejoice's expertise in UI/UX design greatly improved our user experience, resulting in more engagement and significantly better conversions.",
@@ -17,10 +17,10 @@ const testimonials = [
     initials: 'EJ',
   },
   {
-    quote: "Thanks to Rejoice's attention to detail and responsive design, our website looks great on any device — a seamless experience for all our customers.",
-    name: 'Michael Anderson',
+    quote: "Thanks to Rejoice's attention to detail and responsive design, our website looks great on any device a seamless experience for all our customers.",
+    name: 'Michael Nwabueze',
     role: 'Startup Founder',
-    initials: 'MA',
+    initials: 'MN',
   },
 ]
 

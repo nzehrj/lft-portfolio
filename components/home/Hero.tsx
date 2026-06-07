@@ -38,9 +38,9 @@ export default function Hero() {
             </motion.h1>
 
             <motion.p variants={fadeUp} className="mx-auto mt-6 max-w-xl text-body lg:mx-0">
-              Lemonade Fizz Tech is a Nigerian web development studio crafting fast, scalable,
-              and beautifully designed digital products — from landing pages to full-stack
-              platforms. We turn ideas into experiences that convert.
+              Lemonade Fizz Tech is a web development studio crafting fast, scalable,
+              and beautifully designed digital products from landing pages to full-stack
+              platforms. We turn ideas into experiences that engage, convert, and grow your business.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-8 flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap lg:justify-start">
@@ -79,7 +79,7 @@ export default function Hero() {
             <div className="overflow-hidden rounded-3xl border border-line bg-surface shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
               <div className="relative aspect-[4/5] w-full bg-surface">
                 <Image
-                  src="https://fizz-tech.vercel.app/image/IMG_1846 (1).png"
+                  src="/images/Rejoice.png"
                   alt="Rejoice Nzeh — Founder, Lemonade Fizz Tech"
                   fill
                   className="object-cover object-top"

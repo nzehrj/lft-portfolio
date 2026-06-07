@@ -14,10 +14,41 @@ const services = [
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setSubmitted(true)
+    setSending(true)
+    setError('')
+
+    const form = e.currentTarget
+    const data = {
+      firstName: (form.elements.namedItem('firstName') as HTMLInputElement).value,
+      lastName: (form.elements.namedItem('lastName') as HTMLInputElement).value,
+      email: (form.elements.namedItem('email') as HTMLInputElement).value,
+      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
+      service: (form.elements.namedItem('service') as HTMLSelectElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+    }
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+
+      if (!res.ok) {
+        throw new Error('Failed to send')
+      }
+
+      setSubmitted(true)
+    } catch {
+      setError('Something went wrong. Please try again or email us directly.')
+    } finally {
+      setSending(false)
+    }
   }
 
   const inputClasses =
@@ -43,27 +74,27 @@ export default function ContactForm() {
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div className="flex flex-col gap-2">
               <label className="text-sm font-semibold text-ink-soft">First name</label>
-              <input type="text" required placeholder="John" className={inputClasses} />
+              <input name="firstName" type="text" required placeholder="John" className={inputClasses} />
             </div>
             <div className="flex flex-col gap-2">
               <label className="text-sm font-semibold text-ink-soft">Last name</label>
-              <input type="text" required placeholder="Doe" className={inputClasses} />
+              <input name="lastName" type="text" required placeholder="Doe" className={inputClasses} />
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
             <label className="text-sm font-semibold text-ink-soft">Email address</label>
-            <input type="email" required placeholder="john@example.com" className={inputClasses} />
+            <input name="email" type="email" required placeholder="john@example.com" className={inputClasses} />
           </div>
 
           <div className="flex flex-col gap-2">
             <label className="text-sm font-semibold text-ink-soft">Phone number (optional)</label>
-            <input type="tel" placeholder="+234 800 000 0000" className={inputClasses} />
+            <input name="phone" type="tel" placeholder="+234 800 000 0000" className={inputClasses} />
           </div>
 
           <div className="flex flex-col gap-2">
             <label className="text-sm font-semibold text-ink-soft">What do you need?</label>
-            <select required defaultValue="" className={inputClasses}>
+            <select name="service" required defaultValue="" className={inputClasses}>
               <option value="" disabled>Select a service…</option>
               {services.map((s) => (
                 <option key={s} value={s}>{s}</option>
@@ -74,6 +105,7 @@ export default function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-sm font-semibold text-ink-soft">Tell us about your project</label>
             <textarea
+              name="message"
               required
               rows={5}
               placeholder="Describe what you're building, your timeline, and any details that help us understand the scope…"
@@ -81,12 +113,21 @@ export default function ContactForm() {
             />
           </div>
 
+          {error && (
+            <p className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-600">
+              {error}
+            </p>
+          )}
+
           <button
             type="submit"
-            className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-orange px-7 py-4 text-lg font-semibold text-white transition-all hover:bg-orange-hover hover:-translate-y-0.5"
+            disabled={sending}
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-orange px-7 py-4 text-lg font-semibold text-white transition-all hover:bg-orange-hover hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
           >
-            Send message
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" /></svg>
+            {sending ? 'Sending…' : 'Send message'}
+            {!sending && (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" /></svg>
+            )}
           </button>
         </form>
       )}
