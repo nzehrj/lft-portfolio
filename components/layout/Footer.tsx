@@ -40,8 +40,8 @@ export default function Footer() {
               />
             </Link>
             <p className="max-w-xs text-lg leading-relaxed text-white/50">
-              A Nigerian web development studio building fast, scalable, and beautifully designed
-              digital products for businesses across Nigeria and beyond.
+              A web development studio crafting fast, scalable, and beautifully designed
+              digital products for forward-thinking businesses worldwide.
             </p>
             <span className="inline-flex w-fit items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm font-semibold text-white/70">
               <span className="h-2 w-2 rounded-full bg-green-400" />
