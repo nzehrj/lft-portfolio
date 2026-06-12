@@ -32,7 +32,7 @@ export default function Services() {
             viewport={viewportOnce}
             className="text-body lg:pb-2"
           >
-            From a simple landing page to a complex web application — we design and build digital
+            From a simple landing page to a complex web application. We design and build digital
             products that solve real problems and drive business growth.
           </motion.p>
         </div>

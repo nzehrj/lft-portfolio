@@ -5,28 +5,40 @@ import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const timeline = [
   {
-    date: '2024 — Present',
+    date: '2025 — Present',
     role: 'Frontend Developer — Viewdicon LLC',
     place: 'Abuja, Nigeria',
     desc: 'Building a large-scale African professional networking platform across 50+ React TypeScript components, featuring cultural authentication, Redux state management, and Framer Motion animations.',
   },
   {
-    date: '2024',
+    date: '2025 — Present',
+    role: 'Lead Developer — Seasons of Legends',
+    place: 'Tournament Platform',
+    desc: 'Building a tournament management platform for a knockout gaming competition — player registration, location-aware brackets, and live match tracking, built with Next.js and TypeScript.',
+  },
+  {
+    date: '2026 — Present',
     role: 'Contract Developer — EcoFDI',
     place: 'Port Harcourt, Nigeria',
     desc: 'Delivered a complete Next.js 14 website for an environmental NGO — database schema, admin dashboard, email integration, gallery system, and Vercel deployment.',
   },
   {
-    date: '2025',
+    date: '2026',
     role: 'Lead Developer — NYDTP',
     place: 'National Youth Digital Talent Pipeline',
     desc: 'Rapidly built a national digital competition and learning platform for Nigerian youth, delivered within days for a government directorate presentation.',
   },
   {
-    date: '2023 — Present',
+    date: '2025 — Present',
+    role: 'Web Development Instructor — OCO Academy',
+    place: 'Enugu State, Nigeria',
+    desc: 'Designed and delivered a structured web development programme, teaching students from HTML fundamentals through to full-stack React.',
+  },
+  {
+    date: '2022 — Present',
     role: 'Founder — Lemonade Fizz Tech',
     place: 'Enugu State, Nigeria',
-    desc: 'Running a freelance web development studio — delivering client projects, building in-house products, and teaching web development at OCO Academy.',
+    desc: 'Running a freelance web development studio — delivering client projects, building in-house products, and developing education programmes.',
   },
 ]
 

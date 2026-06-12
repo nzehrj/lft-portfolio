@@ -17,7 +17,7 @@ export default function AboutHero() {
               A studio built on <span className="font-serif-display text-orange">craft</span> &amp; care.
             </motion.h1>
             <motion.p variants={fadeUp} className="mx-auto mt-6 max-w-xl text-body lg:mx-0">
-              Lemonade Fizz Tech is a web development studio founded and led by Rejoice Nzeh —
+              Lemonade Fizz Tech is a web development studio founded and led by Rejoice Nzeh,
               a full-stack developer building digital products that are fast, functional, and
               beautifully designed. We serve clients worldwide.
             </motion.p>
@@ -32,7 +32,7 @@ export default function AboutHero() {
             <div className="overflow-hidden rounded-3xl border border-line bg-surface shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
               <div className="relative aspect-[4/5] w-full bg-surface">
                 <Image
-                  src="https://fizz-tech.vercel.app/image/IMG_1846 (1).png"
+                  src="/images/Rejoice.png"
                   alt="Rejoice Nzeh — Founder, Lemonade Fizz Tech"
                   fill
                   className="object-cover object-top"
