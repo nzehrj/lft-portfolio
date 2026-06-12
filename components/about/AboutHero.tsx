@@ -35,6 +35,7 @@ export default function AboutHero() {
                   src="/images/Rejoice.png"
                   alt="Rejoice Nzeh — Founder, Lemonade Fizz Tech"
                   fill
+                  sizes="(max-width: 768px) 100vw, 450px"
                   className="object-cover object-top"
                   priority
                 />

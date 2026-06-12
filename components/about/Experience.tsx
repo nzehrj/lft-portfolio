@@ -14,13 +14,13 @@ const timeline = [
     date: '2025 — Present',
     role: 'Lead Developer — Seasons of Legends',
     place: 'Tournament Platform',
-    desc: 'Building a tournament management platform for a knockout gaming competition — player registration, location-aware brackets, and live match tracking, built with Next.js and TypeScript.',
+    desc: 'Building a tournament management platform for a knockout gaming competition, player registration, location-aware brackets, and live match tracking, built with Next.js and TypeScript.',
   },
   {
     date: '2026 — Present',
     role: 'Contract Developer — EcoFDI',
     place: 'Port Harcourt, Nigeria',
-    desc: 'Delivered a complete Next.js 14 website for an environmental NGO — database schema, admin dashboard, email integration, gallery system, and Vercel deployment.',
+    desc: 'Delivered a complete Next.js 14 website for an environmental NGO database schema, admin dashboard, email integration, gallery system, and Vercel deployment.',
   },
   {
     date: '2026',
@@ -38,7 +38,7 @@ const timeline = [
     date: '2022 — Present',
     role: 'Founder — Lemonade Fizz Tech',
     place: 'Enugu State, Nigeria',
-    desc: 'Running a freelance web development studio — delivering client projects, building in-house products, and developing education programmes.',
+    desc: 'Running a freelance web development studio delivering client projects, building in-house products, and developing education programmes.',
   },
 ]
 
