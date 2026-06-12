@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const highlights = [
-  { num: '20+', label: 'Projects delivered worldwide' },
-  { num: '3+', label: 'Years of active development' },
+  { num: '10+', label: 'Projects delivered worldwide' },
+  { num: '4+', label: 'Years of active development' },
   { num: '5+', label: 'Industries served' },
   { num: '100%', label: 'Delivered on time and to brief' },
 ]
@@ -23,7 +23,7 @@ export default function Story() {
             </motion.h2>
             <motion.div variants={fadeUp} className="mt-6 flex flex-col gap-4 text-body">
               <p>
-                Lemonade Fizz Tech started with one goal — to build world-class web products
+                Lemonade Fizz Tech started with one goal, to build world-class web products
                 that genuinely move businesses forward. What began as a freelance operation has
                 grown into a trusted name for clients who want more than just a website.
               </p>
@@ -33,7 +33,7 @@ export default function Story() {
                 code, thoughtful design, and a product that genuinely works for its users.
               </p>
               <p>
-                Today we operate as a lean, expert studio — no bloated teams, no outsourced work.
+                Today we operate as a lean, expert studio, no bloated teams, no outsourced work.
                 When you work with us, you work directly with the people building your product.
               </p>
             </motion.div>

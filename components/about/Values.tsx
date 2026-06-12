@@ -5,11 +5,11 @@ import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const values = [
   { title: 'Quality over quantity', desc: 'We take fewer projects so each one gets the depth and attention it deserves. Every line of code is written with intention.' },
-  { title: 'Deadlines are sacred', desc: "We don't miss deadlines. Every project is scoped, planned, and delivered when promised — no excuses, no delays." },
-  { title: 'Clients are partners', desc: 'We treat every client relationship as a long-term partnership — transparent communication and shared goals.' },
+  { title: 'Deadlines are sacred', desc: "We don't miss deadlines. Every project is scoped, planned, and delivered when promised, no excuses, no delays." },
+  { title: 'Clients are partners', desc: 'We treat every client relationship as a long-term partnership transparent communication and shared goals.' },
   { title: 'Mobile-first always', desc: 'Most users are on mobile. Every product we build is designed and tested for mobile first, desktop second.' },
   { title: 'Built to scale', desc: "We don't build only for today. Our architecture always accounts for where your business is going next." },
-  { title: 'Detail obsessed', desc: 'We sweat the small things — spacing, motion, performance — because polish is what separates good products from great ones.' },
+  { title: 'Detail obsessed', desc: 'We sweat the small things, spacing, motion, performance because polish is what separates good products from great ones.' },
 ]
 
 export default function Values() {

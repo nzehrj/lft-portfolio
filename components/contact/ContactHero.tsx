@@ -19,7 +19,7 @@ export default function ContactHero() {
             Let&apos;s build something <span className="font-serif-display text-orange">great</span> together
           </motion.h1>
           <motion.p variants={fadeUp} className="mx-auto mt-6 max-w-2xl text-body">
-            Whether you have a project in mind, want a quote, or just want to say hello — we&apos;d
+            Whether you have a project in mind, want a quote, or just want to say hello we&apos;d
             love to hear from you. We typically respond within 24 hours.
           </motion.p>
         </motion.div>
