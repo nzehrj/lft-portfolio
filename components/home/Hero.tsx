@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { fadeUp, stagger } from '@/lib/animations'
 
 const stats = [
-  { num: '3+', label: 'Years in business' },
-  { num: '20+', label: 'Projects delivered' },
+  { num: '4+', label: 'Years in business' },
+  { num: '10+', label: 'Projects delivered' },
   { num: '100%', label: 'On-time delivery' },
 ]
 
