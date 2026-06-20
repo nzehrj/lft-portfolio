@@ -33,10 +33,9 @@ export default function Hero() {
             </motion.span>
 
             <motion.h1 variants={fadeUp} className="mt-6 h-hero">
-              We build websites that{' '}
-              <span className="font-serif-display text-orange">work</span> for your business
+              We build digital products that{' '}
+              <span className="font-serif-display text-orange">perform</span>.
             </motion.h1>
-
             <motion.p variants={fadeUp} className="mx-auto mt-6 max-w-xl text-body lg:mx-0">
               Lemonade Fizz Tech is a web development studio crafting fast, scalable,
               and beautifully designed digital products from landing pages to full-stack

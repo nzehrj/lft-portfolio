@@ -9,7 +9,7 @@ export default function AboutHero() {
     <section className="relative overflow-hidden bg-white">
       <div className="pointer-events-none absolute -left-40 -top-40 h-[480px] w-[480px] rounded-full bg-orange-light blur-3xl opacity-60" />
       <div className="container-x relative">
-        <div className="grid grid-cols-1 items-center gap-12 py-12 sm:py-16 md:py-24 lg:grid-cols-2 lg:gap-16">
+        <div className="grid grid-cols-1 items-center gap-12 py-8 sm:py-10 md:py-14 lg:grid-cols-2 lg:gap-16">
 
           <motion.div variants={stagger} initial="hidden" animate="visible" className="text-center lg:text-left">
             <motion.span variants={fadeUp} className="eyebrow">About us</motion.span>

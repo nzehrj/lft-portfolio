@@ -4,7 +4,7 @@ import Link from 'next/link'
 const projects = [
   {
     title: 'EcoFDI — Environmental NGO Platform',
-    desc: 'A complete web presence for a Nigerian environmental organisation. Built with Next.js 14, featuring a full admin dashboard, gallery system, contact forms, and Open Graph metadata.',
+    desc: 'A complete web presence for a Nigerian environmental organisation. Built with Next.js, featuring a full admin dashboard, gallery system, contact forms, and Open Graph metadata.',
     tags: ['Next.js 14', 'TypeScript', 'PostgreSQL', 'Resend', 'Vercel'],
     image: '/images/ecofdi2.png',
     href: 'https://ecofdi.org/',
@@ -12,19 +12,10 @@ const projects = [
     featured: true,
   },
   {
-    title: 'NYDTP — National Youth Platform',
-    desc: 'National digital competition and learning platform for Nigerian youth, built within days for a government directorate presentation.',
-    tags: ['Next.js', 'Full-Stack', 'Gov'],
-    image: '/images/nydtp.png',
-    href: '#',
-    type: 'Government Platform',
-    featured: false,
-  },
-  {
     title: 'Viewdicon Platform',
     desc: 'African professional networking platform with village-based roles, cultural authentication, and biometric security across 50+ components.',
     tags: ['React', 'TypeScript', 'Redux'],
-    image: '/images/viewdicon2.png',
+    image: '/images/viewdiconchat.png',
     href: '#',
     type: 'Networking Platform',
     featured: false,
@@ -33,7 +24,7 @@ const projects = [
     title: 'Seasons of Legends — Gaming Tournament',
     desc: 'Tournament management platform with player registration, location-aware knockout brackets, and live match tracking.',
     tags: ['Next.js', 'TypeScript', 'Full-Stack'],
-    image: '/images/seasonsoflegends.jpg',
+    image: '/images/seasonoflegend.png',
     href: '#',
     type: 'Tournament Platform',
     featured: false,
@@ -49,7 +40,7 @@ const projects = [
   },
   {
     title: 'OCO Academy — Web Dev Programme',
-    desc: 'Designed and launched a structured web development teaching programme covering HTML through full-stack React for school-age students.',
+   desc: 'Designed and launched a structured programme teaching HTML, CSS, and JavaScript, taking students from fundamentals to building real, functional websites.',
     tags: ['Curriculum', 'Education'],
     image: '/images/ococlass.jpg',
     href: '#',

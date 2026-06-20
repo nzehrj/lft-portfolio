@@ -5,12 +5,12 @@ import Link from 'next/link'
 import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const services = [
-  { num: '01', title: 'Website Development', desc: 'Responsive, SEO-optimised websites that load fast and look great across all devices and screen sizes.' },
-  { num: '02', title: 'Mobile App Development', desc: 'Cross-platform mobile apps with smooth performance, native feel, and clean, intuitive user experiences.' },
-  { num: '03', title: 'eCommerce Integration', desc: 'Full online store setup with secure payments, product management, and a smooth checkout experience.' },
-  { num: '04', title: 'Custom Web Design', desc: 'Brand-first UI/UX design that looks sharp, resonates with your audience, and converts visitors.' },
-  { num: '05', title: 'Backend Development', desc: 'Secure, scalable APIs and server-side systems built on Node.js, PostgreSQL, and modern tooling.' },
-  { num: '06', title: 'UI/UX Consulting', desc: 'Design audits, wireframes, and prototypes that improve usability and reduce friction in your product.' },
+  { num: '01', title: 'Website Development', desc: 'High-performance, responsive websites engineered for speed, search visibility, and a seamless experience across every device.' },
+  { num: '02', title: 'Mobile App Development', desc: 'Cross-platform mobile applications that deliver native-quality performance, intuitive interfaces, and lasting reliability.' },
+  { num: '03', title: 'eCommerce Integration', desc: 'End-to-end online store solutions with secure payment processing, streamlined product management, and conversion-focused checkout.' },
+  { num: '04', title: 'Custom Web Design', desc: 'Brand-driven UI and UX design that elevates your identity, engages your audience, and turns visitors into customers.' },
+  { num: '05', title: 'Backend Development', desc: 'Secure, scalable server architecture and APIs built on modern frameworks to power your product as it grows.' },
+  { num: '06', title: 'UI/UX Consulting', desc: 'Strategic design audits, research, and prototyping that refine usability and remove friction at every touchpoint.' },
 ]
 
 export default function Services() {
