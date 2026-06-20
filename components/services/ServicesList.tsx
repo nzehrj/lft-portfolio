@@ -6,32 +6,32 @@ import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 const services = [
   {
     title: 'Website Development',
-    desc: 'Fast, responsive, SEO-optimised websites built with modern frameworks. From marketing sites to complex web platforms.',
+    desc: 'High-performance websites built with modern frameworks, engineered for speed, search visibility, and scalability, from marketing sites to complex web platforms.',
     features: ['Responsive design', 'SEO optimisation', 'Performance tuning', 'CMS integration'],
   },
   {
     title: 'Mobile App Development',
-    desc: 'Cross-platform mobile apps that feel native, perform smoothly, and deliver clean, intuitive experiences on any device.',
+    desc: 'Cross-platform mobile applications that deliver native-quality performance and refined, intuitive experiences on every device.',
     features: ['iOS & Android', 'Cross-platform', 'Offline support', 'App store deployment'],
   },
   {
     title: 'eCommerce Integration',
-    desc: 'Complete online stores with secure payment gateways, product management, and conversion-focused checkout flows.',
+    desc: 'End-to-end online store solutions with secure payment processing, robust product management, and conversion-driven checkout flows.',
     features: ['Payment gateways', 'Inventory management', 'Cart & checkout', 'Order tracking'],
   },
   {
     title: 'Custom Web Design',
-    desc: 'Brand-first UI/UX design that looks sharp and converts. Every pixel chosen to reflect your brand and guide your users.',
+    desc: 'Brand-driven UI and UX design crafted with intention, where every detail reflects your identity and guides users toward action.',
     features: ['Brand identity', 'Wireframing', 'Prototyping', 'Design systems'],
   },
   {
     title: 'Backend Development',
-    desc: 'Secure, scalable APIs and server-side systems engineered to handle growth, built on Node.js and modern databases.',
+    desc: 'Secure, scalable server architecture and APIs engineered to support sustained growth, built on modern frameworks and databases.',
     features: ['REST APIs', 'Database design', 'Authentication', 'Cloud deployment'],
   },
   {
     title: 'UI/UX Consulting',
-    desc: 'Design audits, user-flow analysis, and prototypes that reduce friction, improve usability, and boost engagement.',
+    desc: 'Strategic design audits, user research, and prototyping that reduce friction, strengthen usability, and elevate engagement.',
     features: ['Design audits', 'User research', 'Usability testing', 'Flow optimisation'],
   },
 ]

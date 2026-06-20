@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const steps = [
-  { num: '01', title: 'Discovery', desc: 'We learn about your business, goals, and users — then scope the project clearly so there are no surprises.' },
-  { num: '02', title: 'Design', desc: 'We create wireframes and visual designs, refining together until the look and flow feel exactly right.' },
-  { num: '03', title: 'Development', desc: 'We build your product with clean, maintainable code — keeping you updated at every milestone.' },
-  { num: '04', title: 'Launch', desc: 'We deploy, test thoroughly, and hand over a polished product — with support to keep it running smoothly.' },
+  { num: '01', title: 'Discovery', desc: 'We take time to understand your business, goals, and users, then scope the project with clarity so there are no surprises along the way.' },
+  { num: '02', title: 'Design', desc: 'We craft wireframes and visual designs, refining each detail together until the look, feel, and flow are exactly right.' },
+  { num: '03', title: 'Development', desc: 'We build your product with clean, maintainable code, keeping you informed and involved at every milestone.' },
+  { num: '04', title: 'Launch', desc: 'We deploy, test rigorously, and hand over a polished product, backed by ongoing support to keep it running smoothly.' },
 ]
 
 export default function Process() {
