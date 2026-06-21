@@ -35,7 +35,7 @@ const projects = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     image: '/images/carmaker2.png',
     href: 'https://carmakerfizz.netlify.app/',
-    type: 'Business Website',
+    type: 'E-commerce Website',
     featured: false,
   },
   {
