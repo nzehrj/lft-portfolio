@@ -8,7 +8,7 @@ import CallToAction from '@/components/home/CallToAction'
 export const metadata: Metadata = {
   title: 'About — Lemonade Fizz Tech',
   description:
-    'Lemonade Fizz Tech is a Nigerian web development studio led by Rejoice Nzeh, building fast, scalable digital products for clients across Nigeria and beyond.',
+    'Lemonade Fizz Tech is a Nigerian web development studio led by Engr Rejoice E Nzeh, building fast, scalable digital products for clients across Nigeria and beyond.',
 }
 
 export default function AboutPage() {
