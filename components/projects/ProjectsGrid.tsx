@@ -5,10 +5,10 @@ const projects = [
   {
     title: 'EcoFDI — Environmental NGO Platform',
     desc: 'A complete web presence for a Nigerian environmental organisation. Built with Next.js, featuring a full admin dashboard, gallery system, contact forms, and Open Graph metadata.',
-    tags: ['Next.js 14', 'TypeScript', 'PostgreSQL', 'Resend', 'Vercel'],
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Resend', 'Vercel'],
     image: '/images/ecofdi2.png',
     href: 'https://ecofdi.org/',
-    type: 'Full-Stack Web Application',
+    type: 'Full-Stack Website',
     featured: true,
   },
   {
@@ -21,8 +21,8 @@ const projects = [
     featured: false,
   },
   {
-    title: 'Seasons of Legends — Gaming Tournament',
-    desc: 'Tournament management platform with player registration, location-aware knockout brackets, and live match tracking.',
+    title: 'Seasons of Legends Gaming Tournament',
+    desc: 'A tournament management platform featuring player registration, location-aware knockout fixtures, and real-time match tracking.',
     tags: ['Next.js', 'TypeScript', 'Full-Stack'],
     image: '/images/seasonoflegend.png',
     href: '#',

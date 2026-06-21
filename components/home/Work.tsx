@@ -16,11 +16,12 @@ const projects = [
     featured: true,
   },
   {
-    title: 'Seasons of Legends — Gaming Tournament',
-    desc: 'Tournament management platform with player registration, location-aware knockout brackets, and live match tracking.',
+    title: 'Seasons of Legends Gaming Tournament',
+    desc: 'A tournament management platform featuring player registration, location-aware knockout fixtures, and real-time match tracking.',
     tags: ['Next.js', 'TypeScript', 'Full-Stack'],
     image: '/images/seasonoflegend.png',
     href: '#',
+    type: 'Tournament Platform',
     featured: false,
   },
   {
