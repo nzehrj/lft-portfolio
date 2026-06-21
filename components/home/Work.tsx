@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'EcoFDI — Environmental NGO Platform',
     desc: 'A complete web presence for a Nigerian environmental organisation. Built with Next.js 14, featuring a full admin dashboard, gallery system, contact forms, and Open Graph metadata.',
-    tags: ['Next.js 14', 'TypeScript', 'PostgreSQL', 'Resend'],
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Resend'],
     image: '/images/ecofdi.png',
     href: 'https://ecofdi.org/',
     type: 'Full-Stack Web Application',

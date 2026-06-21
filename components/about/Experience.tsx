@@ -23,19 +23,13 @@ const timeline = [
     desc: 'Delivered a complete Next.js 14 website for an environmental NGO database schema, admin dashboard, email integration, gallery system, and Vercel deployment.',
   },
   {
-    date: '2026',
-    role: 'Lead Developer — NYDTP',
-    place: 'National Youth Digital Talent Pipeline',
-    desc: 'Rapidly built a national digital competition and learning platform for Nigerian youth, delivered within days for a government directorate presentation.',
-  },
-  {
-    date: '2025 — Present',
+    date: '2024 — Present',
     role: 'Web Development Instructor — OCO Academy',
     place: 'Enugu State, Nigeria',
     desc: 'Designed and delivered a structured web development programme, teaching students from HTML fundamentals through to full-stack React.',
   },
   {
-    date: '2022 — Present',
+    date: '2021 — Present',
     role: 'Founder — Lemonade Fizz Tech',
     place: 'Enugu State, Nigeria',
     desc: 'Running a freelance web development studio delivering client projects, building in-house products, and developing education programmes.',

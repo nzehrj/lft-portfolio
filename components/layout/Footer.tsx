@@ -97,7 +97,7 @@ export default function Footer() {
           <p className="text-sm text-white/40">
             © {new Date().getFullYear()} Lemonade Fizz Tech. All rights reserved.
           </p>
-          <p className="text-sm text-white/40">Designed &amp; built by Rejoice Nzeh</p>
+          <p className="text-sm text-white/40">Designed &amp; built by Engr Rejoice Nzeh</p>
         </div>
       </div>
     </footer>

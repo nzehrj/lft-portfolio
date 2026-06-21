@@ -5,7 +5,7 @@ import { fadeUp, stagger, viewportOnce } from '@/lib/animations'
 
 const highlights = [
   { num: '10+', label: 'Projects delivered worldwide' },
-  { num: '4+', label: 'Years of active development' },
+  { num: '5+', label: 'Years of active development' },
   { num: '5+', label: 'Industries served' },
   { num: '100%', label: 'Delivered on time and to brief' },
 ]
