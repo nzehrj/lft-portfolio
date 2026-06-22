@@ -41,15 +41,8 @@ export default function AboutHero() {
                 />
               </div>
               <div className="p-6">
-                <div className="text-xl font-extrabold tracking-tight text-ink">Rejoice Nzeh</div>
+                <div className="text-xl font-extrabold tracking-tight text-ink">Engr Rejoice E Nzeh</div>
                 <div className="mt-1 text-base text-muted">Founder &amp; Lead Developer</div>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {['Full-Stack', 'Next.js', 'TypeScript', 'Available globally'].map((t) => (
-                    <span key={t} className="rounded-md border border-line bg-white px-3 py-1.5 text-sm font-semibold text-ink-soft">
-                      {t}
-                    </span>
-                  ))}
-                </div>
               </div>
             </div>
           </motion.div>
