@@ -94,9 +94,14 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 py-7 text-center sm:flex-row sm:text-left">
-          <p className="text-sm text-white/40">
-            © {new Date().getFullYear()} Lemonade Fizz Tech. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-1">
+            <p className="text-sm text-white/40">
+              © {new Date().getFullYear()} Lemonade Fizz Tech. All rights reserved.
+            </p>
+            <p className="text-xs text-white/30">
+              Registered in Nigeria. RC/BN: 9635547
+            </p>
+          </div>
           <p className="text-sm text-white/40">Designed &amp; built by Engr Rejoice Nzeh</p>
         </div>
       </div>
