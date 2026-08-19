@@ -20,7 +20,7 @@ const projects = [
     desc: 'A competitive gaming tournament platform that streamlines player registration, automates knockout fixtures, and delivers real-time match updates and standings.',
     tags: ['Next.js', 'TypeScript', 'Full-Stack'],
     image: '/images/seasonoflegends.png',
-    href: 'https://seasonoflegends.com',
+    href: 'https://fixture.seasonoflegends.com',
     type: 'Tournament Platform',
     featured: false,
   },
