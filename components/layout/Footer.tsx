@@ -19,9 +19,9 @@ const services = [
 ]
 
 const socials = [
-  { href: 'https://github.com/', label: 'GitHub' },
-  { href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { href: 'https://twitter.com/', label: 'Twitter' },
+  { href: 'https://github.com/nzehrj', label: 'GitHub' },
+  { href: 'https://linkedin.com/in/rejoice-nzeh-165a27432', label: 'LinkedIn' },
+  { href: 'https://x.com/fizz_lemonade?s=11', label: 'Twitter' },
 ]
 
 export default function Footer() {
