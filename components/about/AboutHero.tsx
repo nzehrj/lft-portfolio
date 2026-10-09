@@ -32,7 +32,7 @@ export default function AboutHero() {
             <div className="overflow-hidden rounded-3xl border border-line bg-surface shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
               <div className="relative aspect-[4/5] w-full bg-surface">
                 <Image
-                  src="/images/Rejoice.png"
+                  src="/images/fizz.png"
                   alt="Rejoice Nzeh — Founder, Lemonade Fizz Tech"
                   fill
                   sizes="(max-width: 768px) 100vw, 450px"
